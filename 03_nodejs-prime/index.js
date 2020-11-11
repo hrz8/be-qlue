@@ -1,11 +1,10 @@
 const { isPrime } = require('./utils');
 
 const args = process.argv.slice(2);
-if (args.length < 1) {
-    process.exit(0);
-}
+if (args.length < 1) process.exit(0);
 
 function collectPrime(n) {
+    if (n < 1) process.exit(0);
     const res = [];
     for (let i = 2; i < n; i++) {
         if (isPrime(i)) res.push(i);
