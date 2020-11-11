@@ -1,0 +1,7 @@
+echo ">> download packages..."
+npm i
+echo ">> download packages done"
+
+echo ">> run pkg build..."
+node_modules/.bin/pkg -o bin/collect_prime -t linux index.js
+echo ">> run pkg build done"
