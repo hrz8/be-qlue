@@ -1,0 +1,16 @@
+{
+  "name": "be-qlue_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hrz8/be-qlue/04_javascript"
+  },
+  "author": "hirzi",
+  "license": "ISC"
+}
