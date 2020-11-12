@@ -13,7 +13,7 @@
 ```bash
 [01_shell]$ bash httpd_proccess_count.sh
 # OR
-[01_shell]$ httpd_proccess_count
+[01_shell]$ ./httpd_proccess_count
 ```
 
 Note: 
