@@ -119,6 +119,12 @@ Optional:
   [05_algorithmic]$ bin/get_combinations [number]
   ```
 
+## 06_parallel-concurrency
+
+### Reading for you
+
+[Click Here](https://github.com/hrz8/be-qlue/06_parallel-concurrency)
+
 ## App Info
 
 ### Authors
