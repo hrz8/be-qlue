@@ -2,6 +2,6 @@ echo ">> download packages..."
 npm i
 echo ">> download packages done"
 
-echo ">> run pkg build..."
+echo ">> build binary file......"
 node_modules/.bin/pkg -o bin/collect_prime -t linux index.js
-echo ">> run pkg build done"
+echo ">> build done"

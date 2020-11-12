@@ -1,41 +1,42 @@
 const { arrayHasArray, getVal } = require('./utils');
 
-class NumberSet {
-    constructor(n) {
-        this.n = n;
-        this.resTemp = [];
-        this.output = [];
-    }
+const args = process.argv.slice(2);
+if (args.length < 1) process.exit(0);
 
-    combinations(currentSum = 0) {
-        if (currentSum === this.n) {
-            const sorted_o = getVal(this.output)
-                .map(x => x.sort((a, b) => a - b));
-            const sorted_r = getVal(this.resTemp)
-                .sort((a, b) => a - b);
-                
-            if (!arrayHasArray(sorted_o, sorted_r)) {
-                this.output.push(getVal(this.resTemp));
-            }
-        } else {
-            for (let i = this.n - currentSum; i > 0; i--) {
-                let currentSumTemp = currentSum + i;
-
-                if (currentSumTemp <= this.n) {
-                    this.resTemp.push(i);
-                    this.output = this.combinations(currentSumTemp);
-                    this.resTemp.pop();
-                }
-            }
-        }
-        
-        return this.output;
-    }
+const SumSet = function(n) {
+    if (!new.target) throw Error("SumSet must be called with new keyword!");
+    if (n < 2) process.exit(0);
+    this.n = n;
+    this.res = [];
+    this.output = [];
 }
 
-const ns = new NumberSet(5);
-const result = ns.combinations();
+SumSet.prototype.combinations = function(currentSum = 0) {
+    if (currentSum === this.n) {
+        const sorted_o = getVal(this.output)
+            .map(x => x.sort((a, b) => a - b));
+        const sorted_r = getVal(this.res)
+            .sort((a, b) => a - b);
+            
+        if (!arrayHasArray(sorted_o, sorted_r)) {
+            this.output.push(getVal(this.res));
+        }
+    } else {
+        for (let i = this.n - currentSum; i > 0; i--) {
+            let currentSumTemp = currentSum + i;
 
+            if (currentSumTemp <= this.n) {
+                this.res.push(i);
+                this.output = this.combinations(currentSumTemp);
+                this.res.pop();
+            }
+        }
+    }
+
+    return this.output;
+}
+
+const result = (new SumSet(Number(args[0]))).combinations();
 for (const res of result) {
     console.log(res.join(','));
 }

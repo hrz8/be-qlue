@@ -1,0 +1,7 @@
+echo ">> download packages..."
+npm i
+echo ">> download packages done"
+
+echo ">> build binary file..."
+node_modules/.bin/pkg -o bin/get_combinations -t linux index.js
+echo ">> build done"
