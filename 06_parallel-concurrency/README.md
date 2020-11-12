@@ -7,7 +7,7 @@
 **Parallelism**: Doing lots of things at once with multiple resources/handlers/units
 
 ## Diagram
-![Kiku](../parallel_concurrent.png)
+![parallel and concurrent diagram](../parallel_concurrent.png)
 
 ## Analogy
 
