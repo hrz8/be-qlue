@@ -123,7 +123,7 @@ Optional:
 
 ### Reading for you
 
-[Click Here](https://github.com/hrz8/be-qlue/06_parallel-concurrency)
+[Click Here](../tree/master/06_parallel-concurrency)
 
 ## App Info
 
