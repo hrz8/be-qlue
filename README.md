@@ -88,6 +88,7 @@ Optional:
 
 Note:
 - to lookup the RestFul API Response go to http://localhost:8080/ from your machine
+- the requested function to sanitize and improve the json response can found and exist in `./04_javascript/utils.js` as `sanitizeResponse()`
 
 ## 05_algorithmic
 
