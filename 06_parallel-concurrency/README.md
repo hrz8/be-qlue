@@ -8,7 +8,7 @@
 
 ## Diagram
 
-![parallel and concurrent diagram](../parallel_concurrent.png)
+![parallel and concurrent diagram](../parallelconcurrent.png)
 
 ## Analogy
 
