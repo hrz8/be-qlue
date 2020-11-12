@@ -123,7 +123,7 @@ Optional:
 
 ### Reading for you
 
-[Click Here](../blob/master/06_parallel-concurrency)
+[Click Here](../master/06_parallel-concurrency)
 
 ## App Info
 
