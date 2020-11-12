@@ -1,5 +1,13 @@
 # be Qlue
 
+## What's going on here?
+- [Shell](#01_shell)
+- [SQL](#02_sql)
+- [NodeJS](#03_nodejs-prime)
+- [Javascript](#04_javascript)
+- [Algorithmic](#05_algorithmic)
+- [Bonus: Parallel and Concurrency](#06_parallel-concurrency)
+
 ## 01_shell
 
 ### Play the Game
