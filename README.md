@@ -64,13 +64,13 @@ Note:
 - `collectPrime()` function using `isPrime()` function in the body that exist in `./03_nodejs-prime/utils.js` file
 
 Optional:
-- the apps contain the binary file that can be run using:
-  ```bash
-  [03_nodejs-prime]$ bin/collect_prime [number]
-  ```
-- if you want to **re-build** the binary file, you need to make sure that your machine **connect to the internet** for download some dev dependencies packages. if so you can run this command:
+- if you want to **build** the binary file, you need to make sure that your machine **connect to the internet** for download some dev dependencies packages. if so you can run this command:
     ```bash
   [03_nodejs-prime]$ bin/setup
+  ```
+- the binary file that can be run using:
+  ```bash
+  [03_nodejs-prime]$ bin/collect_prime [number]
   ```
 
 ## 04_javascript
@@ -109,15 +109,14 @@ Note:
 - `combinations()` method of `SumSet` is a recursive method that returns an array of set numbers
 
 Optional:
-- the apps contain the binary file that can be run using:
-  ```bash
-  [05_algorithmic]$ bin/get_combinations [number]
-  ```
-- if you want to **re-build** the binary file, you need to make sure that your machine **connect to the internet** for download some dev dependencies packages. if so you can run this command:
+- if you want to **build** the binary file, you need to make sure that your machine **connect to the internet** for download some dev dependencies packages. if so you can run this command:
     ```bash
   [05_algorithmic]$ bin/setup
   ```
-
+- the binary file that can be run using:
+  ```bash
+  [05_algorithmic]$ bin/get_combinations [number]
+  ```
 
 ## App Info
 
