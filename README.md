@@ -16,7 +16,7 @@
 [be-qlue]$ cd 01_shell/
 ```
 
->Create a single line script that returns the number of httpd processes that are running on the current machine
+> Create a single line script that returns the number of httpd processes that are running on the current machine
 
 ```bash
 [01_shell]$ bash httpd_proccess_count.sh
@@ -60,7 +60,7 @@ Note:
 ```bash
 [be-qlue]$ cd 03_nodejs-prime/
 ```
->Write a function which, taking in a positive integer n as input, returns an array of all primes lower than n.
+> Write a function which, taking in a positive integer n as input, returns an array of all primes lower than n.
 
 ```bash
 [03_nodejs-prime]$ node index.js [number]
@@ -88,7 +88,7 @@ Optional:
 ```bash
 [be-qlue]$ cd 04_javascript/
 ```
->Write the NodeJS function which, taking in a raw data set as first mentioned, will return the improved json-encoded string and expose it into standard RESTFul API
+> Write the NodeJS function which, taking in a raw data set as first mentioned, will return the improved json-encoded string and expose it into standard RESTFul API
 
 ```bash
 [04_javascript]$ npm start
@@ -105,8 +105,7 @@ Note:
 ```bash
 [be-qlue]$ cd 05_algorithmic/
 ```
->Write a function which, taking a positive integer n as input, finds all
-sets of numbers that sum up to n.
+> Write a function which, taking a positive integer n as input, finds all sets of numbers that sum up to n.
 
 ```bash
 [05_algorithmic]$ node index.js [number]
@@ -138,9 +137,9 @@ Optional:
 ### Play the Game
 
 ```bash
-[be-qlue]$ cd 04_ounding-path/
+[be-qlue]$ cd 07_rounding-path/
 ```
->Write the NodeJS function which, taking [N] fot argument as the width and height for square matrix (NxN = ROWxCOL), will return something like this:
+> Write the function which, taking [N] fot argument as the width and height for square matrix (NxN = ROWxCOL), will return something like this:
 
 ```bash
 # N = 2
@@ -166,11 +165,11 @@ Optional:
 ```
 
 ```bash
-[07_rounding-path]$ node index.js
+[07_rounding-path]$ node index.js [number]
 ```
 
 Note:
-- the output will show 2d array (matrix) of rounding path number (left --> right, top --> bottom, right --> left, bottom --> top, so on)
+- the output will show 2d array (matrix) with rounding path number (left --> right, top --> bottom, right --> left, bottom --> top, so on)
 
 ## App Info
 
