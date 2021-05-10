@@ -139,7 +139,7 @@ Optional:
 ```bash
 [be-qlue]$ cd 07_rounding-path/
 ```
-> Write the function which, taking [N] fot argument as the width and height for square matrix (NxN = ROWxCOL), will return something like this:
+> Write the function which, taking [N] for argument as the width and height for square matrix (NxN = ROWxCOL), will return something like this:
 
 ```bash
 # N = 2
