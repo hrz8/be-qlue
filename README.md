@@ -7,6 +7,7 @@
 - [Javascript](#04_javascript)
 - [Algorithmic](#05_algorithmic)
 - [Bonus: Parallel and Concurrency](#06_parallel-concurrency)
+- [Bonus: Rounded Matrix Path](#07_rounding-path)
 
 ## 01_shell
 
