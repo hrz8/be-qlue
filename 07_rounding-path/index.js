@@ -53,4 +53,4 @@ function matrix(n) {
   return arr;
 }
   
-console.log(matrix(1));
+console.log(matrix(args[0]));
