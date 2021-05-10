@@ -133,6 +133,45 @@ Optional:
 
 [Click Here](../master/06_parallel-concurrency)
 
+## 07_rounding-path
+
+### Play the Game
+
+```bash
+[be-qlue]$ cd 04_ounding-path/
+```
+>Write the NodeJS function which, taking [N] fot argument as the width and height for square matrix (NxN = ROWxCOL), will return something like this:
+
+```bash
+# N = 2
+[
+  [1,2],
+  [4,3]
+]
+
+# N = 3
+[
+  [1,2,3],
+  [8,9,4],
+  [7,6,5]
+]
+
+# N = 4
+[
+  [1,  2, 3,4],
+  [12,13,14,5],
+  [11,16,15,6],
+  [10, 9, 8,7]
+]
+```
+
+```bash
+[07_rounding-path]$ node index.js
+```
+
+Note:
+- the output will show 2d array (matrix) of rounding path number (left --> right, top --> bottom, right --> left, bottom --> top, so on)
+
 ## App Info
 
 ### Authors
